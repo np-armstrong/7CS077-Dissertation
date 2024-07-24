@@ -1,4 +1,4 @@
-# Generate <language> code for the following: 
+# Generate python code for the following: 
 # A decorator is used to tell what URL should trigger our function.
 # The function checks if the file exists in the images folder.
 # If the file exists it sends the file to the browser.
