@@ -1,4 +1,4 @@
-# Generate <language> code for the following: 
+# Generate python code for the following: 
 # The file_is_safe_type function is a function that checks if the file is safe to upload.
 # The upload_file function is the function that handles the upload of the file.
 # The p.save(os.path.join('uploads' filename)) line saves the file to the uploads folder.

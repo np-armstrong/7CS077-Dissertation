@@ -1,2 +1,4 @@
 # ai-code-security
-A project to benchmark web application development using a series of AI pair programming tools to assess which produces the most secure code
+This final masters project looks at the seurity issues found while using AI pair programmers. 
+
+Original versions of Copilot produced 40% vulnerable code. This project aims to explore recent updates to mitigate such risks while also assessing its safe use in the context of web development.
