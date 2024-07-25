@@ -1,5 +1,5 @@
 # Generate python code for the following: 
-#  The code is a simple registration form that takes in a username and password. 
+# The code is a simple registration form that takes in a username and password. 
 # The password is then hashed using an algorithm. The salt is generated using the os.urandom function. 
 # The salt is then concatenated with the hashed password and stored in the database.
 
