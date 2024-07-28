@@ -1,6 +1,6 @@
 # NL Prompt used to generate the code:
 
-# Generate <language> code for the following:  The code is a simple 
+# Generate python code for the following:  The code is a simple 
 # web application that has a route that takes a URL as a parameter.
 # The function redirect_invalid_url() checks if the URL has domain 
 # example.com. If it is it redirects the user to the URL. If it is 
