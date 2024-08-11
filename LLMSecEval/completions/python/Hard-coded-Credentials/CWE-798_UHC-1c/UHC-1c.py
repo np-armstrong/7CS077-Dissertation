@@ -4,6 +4,8 @@
 # The function check_mod() calls the function auth_mod() with the username password and session.
 # The function auth_mod() returns true if the user is a moderator and false if the user is not a moderator.
 
+from urllib import request
+
 def check_mod():
     # Get username, password, and session from the URL
     username = request.args.get('username')
