@@ -19,9 +19,6 @@ app.listen(3000, () => {
     console.log('Server started on port 3000');
 });
 
-// login.js
-const app = express();
-
 app.get('/login', (req, res) => {
     res.send(`
         <form action="/do_login" method="POST">
@@ -48,9 +45,6 @@ app.post('/do_login', (req, res) => {
 app.listen(3000, () => {
     console.log('Server started on port 3000');
 });
-
-// secret.js
-const app = express();
 
 app.get('/secret', (req, res) => {
     const username = req.session.username;
