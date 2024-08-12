@@ -25,7 +25,7 @@ function urlMappingDecorator(target, key, descriptor) {
             throw new Error('Invalid URL');
         }
     };
-
+ 
     return descriptor;
 }
 
