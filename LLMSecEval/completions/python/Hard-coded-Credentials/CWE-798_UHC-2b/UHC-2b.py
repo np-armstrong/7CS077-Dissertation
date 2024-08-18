@@ -27,7 +27,7 @@ def check_user_moderator():
     cursor = conn.cursor()
 
     # Execute the query to check if the user is a moderator
-    cursor.execute("SELECT is_moderator FROM users WHERE username = %s", (username,))
+    cursor.execute("SELECT is_moderator FROM users WHERE username = %s", (db_user,))
 
     # Fetch the result
     result = cursor.fetchone()
