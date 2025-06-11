@@ -1,5 +1,5 @@
 # ai-code-security
-This research project looks at the seurity issues found while using AI pair programmers. 
+This research project submitted to the IEEE Silicon Valley Cybersecurity Conference 2025 looks at the security issues found while using AI pair programmers. 
 
 Original versions of Copilot produced 40% vulnerable code. This project aims to explore recent updates to mitigate such risks while also assessing its safe use in the context of web development.
 
